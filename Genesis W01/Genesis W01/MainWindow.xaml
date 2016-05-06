@@ -1,0 +1,40 @@
+﻿<Window x:Class="Genesis_W01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Genesis_W01"
+        mc:Ignorable="d"
+        Title="Genesis W01" Height="600" Width="1080" Background="#FF0B575B">
+    <Grid>
+        <Button x:Name="start" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Center" Width="58" Margin="901,353,0,182" Height="34" Click="start_Click"/>
+        <Button x:Name="stop" Content="Stop" HorizontalAlignment="Left" VerticalAlignment="Center" Width="58" Margin="983,353,0,184" Height="32" Click="stop_Click"/>
+        <TextBlock x:Name="tbl1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Connection pane" VerticalAlignment="Top" Margin="901,430,0,0" Foreground="White" FontSize="18.667"/>
+        <TextBox x:Name="comno" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="COM7" VerticalAlignment="Top" Width="140" Margin="901,460,0,0" Background="#FF38686A" Foreground="White"/>
+        <Image x:Name="imBox" HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="480" Margin="10,37,0,0"/>
+        <Button x:Name="connect" Content="Connect" HorizontalAlignment="Left" VerticalAlignment="Center" Width="58" Margin="901,503,0,32" Height="34" Click="connect_Click"/>
+        <Button x:Name="disconnect" Content="Disonnect" HorizontalAlignment="Left" VerticalAlignment="Center" Width="58" Margin="983,503,0,32" Height="34" Click="disconnect_Click"/>
+        <TextBlock x:Name="tbl1_Copy" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Master control" VerticalAlignment="Top" Margin="901,323,0,0" Foreground="White" FontSize="18.667"/>
+        <Image x:Name="dial" HorizontalAlignment="Center" Height="146" VerticalAlignment="Center" Width="180" Margin="882,113,10,310" Source="Assets/HeadingWeel.bmp" RenderTransformOrigin="0.5,0.5"/>
+        <Image x:Name="needle" Height="99" VerticalAlignment="Center" Width="80" Margin="931,138,61,332" Source="Assets/LongNeedleAltimeter.bmp" RenderTransformOrigin="0.5,0.5"/>
+        <TextBlock x:Name="tbl1_Copy1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Heading" VerticalAlignment="Top" Margin="901,83,0,0" Foreground="White" FontSize="18.667"/>
+        <TextBlock x:Name="heading_number" HorizontalAlignment="Left" TextWrapping="Wrap" Text="0 " VerticalAlignment="Top" Margin="901,264,0,0" Foreground="White" FontSize="18.667"/>
+        <ToolBar x:Name="toolBar" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="1062" Background="#FF0B575B">
+            <Button x:Name="about" Content="About" HorizontalAlignment="Left" VerticalAlignment="Top" Width="48" Height="26" Foreground="White" Margin="0,0,0,-5" Click="about_Click"/>
+            <Button x:Name="Motor" Content="Motor" Height="27" VerticalAlignment="Top" Width="75" Foreground="White"/>
+            <Button x:Name="manual" Content="Manual" Height="27" VerticalAlignment="Top" Width="75" Foreground="#FFFBFBFB" Click="manual_Click"/>
+            <Button x:Name="autonomous" Content="Autonomous" Height="27" VerticalAlignment="Top" Width="75" Foreground="#FFFBFBFB" Click="autonomous_Click"/>
+
+        </ToolBar>
+        <TextBlock x:Name="dd1" HorizontalAlignment="Left" Margin="572,470,0,0" TextWrapping="Wrap" Text="Dist 1" VerticalAlignment="Top" Height="25" Foreground="White"/>
+        <TextBlock x:Name="dd2" HorizontalAlignment="Left" Margin="633,470,0,0" TextWrapping="Wrap" Text="Dist 2" VerticalAlignment="Top" Height="25" Foreground="White"/>
+        <TextBlock x:Name="hhd" HorizontalAlignment="Left" Margin="688,470,0,0" TextWrapping="Wrap" Text="Heading " VerticalAlignment="Top" Height="25" Foreground="White"/>
+        <Rectangle  HorizontalAlignment="Left" Height="35" Margin="554,460,0,0" Stroke="White" VerticalAlignment="Top" Width="196"/>
+        <Rectangle Name="center"  HorizontalAlignment="Left" Height="100" Margin="600,218,0,0" Stroke="White" VerticalAlignment="Top" Width="100" Fill="#FF706E6E"/>
+        <Rectangle Name="front" HorizontalAlignment="Left" Height="26" Margin="600,174,0,0" Stroke="White" VerticalAlignment="Top" Width="100" Fill="#FF10A00A"/>
+        <Rectangle Name="right" HorizontalAlignment="Left" Height="100" Margin="724,218,0,0" Stroke="White" VerticalAlignment="Top" Width="26" Fill="#FF10A00A"/>
+        <Rectangle Name="left" HorizontalAlignment="Left" Height="100" Margin="554,218,0,0" Stroke="White" VerticalAlignment="Top" Width="26" Fill="#FF10A00A"/>
+        <Button x:Name="manual_ctrl" Content="Press to activate keyboard control" Visibility="Hidden" HorizontalAlignment="Left"   Margin="554,368,0,0" VerticalAlignment="Top" Width="196" Height="40" KeyDown="manual_ctrl_KeyDown" KeyUp="manual_ctrl_KeyUp"/>
+
+    </Grid>
+</Window>

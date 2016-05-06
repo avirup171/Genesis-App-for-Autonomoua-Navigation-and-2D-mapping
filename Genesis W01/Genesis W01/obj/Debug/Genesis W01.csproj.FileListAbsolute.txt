@@ -1,0 +1,14 @@
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\bin\Debug\Genesis W01.exe.config
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\bin\Debug\Genesis W01.exe
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\bin\Debug\Genesis W01.pdb
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\Genesis W01.csprojResolveAssemblyReference.cache
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\MainWindow.g.cs
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\App.g.cs
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\Genesis W01_MarkupCompile.cache
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\Genesis W01_MarkupCompile.lref
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\MainWindow.baml
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\Genesis W01.g.resources
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\Genesis_W01.Properties.Resources.resources
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\Genesis W01.csproj.GenerateResource.Cache
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\Genesis W01.exe
+c:\users\avirup\documents\visual studio 2015\Projects\Genesis W01\Genesis W01\obj\Debug\Genesis W01.pdb
